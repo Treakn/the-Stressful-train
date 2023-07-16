@@ -21,7 +21,7 @@ public class NPCRequestFunction : MonoBehaviour
         currentRequest = RequestType.GetWater;
         requestTime = 0.0f;
         //time intervals 
-        timeIntervalMin = 10.0f;     // 1 minute
+        timeIntervalMin = 60.0f;     // 1 minute
         timeIntervalMax = 90.0f;     // 1.5 minutes
     }
 
