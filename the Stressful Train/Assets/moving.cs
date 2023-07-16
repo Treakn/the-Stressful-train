@@ -9,12 +9,12 @@ public class ScrollingBackground : MonoBehaviour
 
     void Start()
     {
-        mat = GetComponent<Renderer>().material; // Fixed typo in "material" property
+        mat = GetComponent<Renderer>().material; 
     }
 
     void Update()
     {
         offset += (Time.deltaTime * scrollSpeed) / 10f;
-        mat.SetTextureOffset("_MainTex", new Vector2(offset, 0)); // Fixed typo in "SetTextureOffset"
+        mat.SetTextureOffset("_MainTex", new Vector2(offset, 0)); 
     }
 }
